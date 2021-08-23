@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Nunito Sans';
+    background: #f7ede2;
+}
+
+.navbar {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    background: #F6BD60 !important;
+    padding: 5px 0;
+    border-bottom: 4px solid #000100;
+}
+
+form {
+    padding: 15px;
+    text-align: center;
+}
+
+form .title{
+    font-size: 3em;
+    font-family: "Poppins";
+}
+
+form .btn{
+    background: #f6bd60;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-family: "Poppins";
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: "Poppins";
+    border: 0;
+}
+
+.card-container .fas{
+    font-size: 1.2em;
+    color: grey;
+}
+
+.card{
+    border: 0;
+}
+
+.cards-done{
+    opacity: 0.7;
+}
+
+.cards-done .card .card-header{
+    background: #f28482;
+}
+
+.cards-to .card .card-header{
+    background: #84a59d;
+
+}
+
+.cards-to .card .card-header p{
+    margin: 0;
+}
+
+.cards-done .card .card-header p{
+    margin: 0;
+}
+
+.card-stats {
+    align-self: baseline;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat .btn{
+    background: #f28482;
+}
+
+.stat .btn:hover{
+    background: #97212B;
+    color: white;
+}
